@@ -1,0 +1,25 @@
+CC5X Version 3.2K, Copyright (c) B Knudsen Data, Norway 1992-2006
+ --> FREE edition, 8-16 bit int, 24 bit float, 1k code, reduced optim.
+Lab7_code.c:
+ 20. Nov 2019  16:18
+ Chip = 16F873A
+Warning Lab7_code.c 86: Local variables and parameters in uncalled functions are not allocated (1)
+ (The application contains non-library functions that are not called. Local
+ variables in these functions (option -wU) are not allocated to save space)
+ RAM: 00h : -------- -------- -------- --------
+ RAM: 20h : -======= ===..... ........ ..******
+ RAM: 40h : ******** ******** ******** ********
+ RAM: 60h : ******** ******** ******** ********
+ RAM: 80h : -------- -------- -------- --------
+ RAM: A0h : -******* ******** ******** ********
+ RAM: C0h : ******** ******** ******** ********
+ RAM: E0h : ******** ******** ******** ********
+RAM usage: 27 bytes (10 local), 165 bytes free
+ Optimizing - removed 12 instructions (-3 %)
+ File 'Lab7_code.occ'
+ Codepage 0 has  347 word(s) :  16 %
+ Codepage 1 has    0 word(s) :   0 %
+ File 'Lab7_code.hex'
+Total of 347 code words (8 %)
+ * Estimated CODE SIZE of full optimization: 271 code words (-21 %)
+ RESTRICTIONS on commercial usage applies as described in file readme.txt

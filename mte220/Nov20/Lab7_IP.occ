@@ -1,0 +1,27 @@
+CC5X Version 3.2K, Copyright (c) B Knudsen Data, Norway 1992-2006
+ --> FREE edition, 8-16 bit int, 24 bit float, 1k code, reduced optim.
+Lab7_IP.c:
+ 20. Nov 2019  16:17
+ Chip = 16F873A
+ RAM: 00h : -------- -------- -------- --------
+ RAM: 20h : -======= =======. ........ ......**
+ RAM: 40h : ******** ******** ******** ********
+ RAM: 60h : ******** ******** ******** ********
+ RAM: 80h : -------- -------- -------- --------
+ RAM: A0h : -******* ******** ******** ********
+ RAM: C0h : ******** ******** ******** ********
+ RAM: E0h : ******** ******** ******** ********
+RAM usage: 31 bytes (14 local), 161 bytes free
+Warning Lab7_IP.c 79: Constant is truncated
+ (The type cast rules force significant bits in the result to be
+ cleared. It is recommended to use type cast one value to make clear
+ what the type (size) should be. For example '(long)100*100'. Note
+ that the default int size is 8 bit)
+ Optimizing - removed 12 instructions (-2 %)
+ File 'Lab7_IP.occ'
+ Codepage 0 has  484 word(s) :  23 %
+ Codepage 1 has    0 word(s) :   0 %
+ File 'Lab7_IP.hex'
+Total of 484 code words (11 %)
+ * Estimated CODE SIZE of full optimization: 372 code words (-23 %)
+ RESTRICTIONS on commercial usage applies as described in file readme.txt

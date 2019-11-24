@@ -1,0 +1,22 @@
+CC5X Version 3.2K, Copyright (c) B Knudsen Data, Norway 1992-2006
+ --> FREE edition, 8-16 bit int, 24 bit float, 1k code, reduced optim.
+Lab7.c:
+ 20. Nov 2019  15:54
+ Chip = 16F873A
+ RAM: 00h : -------- -------- -------- --------
+ RAM: 20h : -======= ======.. ........ .....***
+ RAM: 40h : ******** ******** ******** ********
+ RAM: 60h : ******** ******** ******** ********
+ RAM: 80h : -------- -------- -------- --------
+ RAM: A0h : -******* ******** ******** ********
+ RAM: C0h : ******** ******** ******** ********
+ RAM: E0h : ******** ******** ******** ********
+RAM usage: 30 bytes (13 local), 162 bytes free
+ Optimizing - removed 12 instructions (-2 %)
+ File 'Lab7.occ'
+ Codepage 0 has  500 word(s) :  24 %
+ Codepage 1 has    0 word(s) :   0 %
+ File 'Lab7.hex'
+Total of 500 code words (12 %)
+ * Estimated CODE SIZE of full optimization: 380 code words (-24 %)
+ RESTRICTIONS on commercial usage applies as described in file readme.txt
